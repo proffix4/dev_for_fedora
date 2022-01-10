@@ -1,0 +1,1 @@
+sh /opt/dev/netbeans/bin/netbeans --fontsize 18

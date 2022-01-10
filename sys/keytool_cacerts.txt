@@ -1,0 +1,14 @@
+    * Добавление в системную Java сертификата сайта
+sudo keytool -importcert -alias data.egov.kz -cacerts -storepass changeit -file data.egov.kz.pem
+   или
+sudo keytool -importcert -alias data.egov.kz -cacerts -storepass changeit -file data.egov.kz.cer
+
+    * Список установленных сертификатов в системной Java в файл java_cacerts.dat
+keytool -list -cacerts -storepass changeit  > java_cacerts.dat
+
+    * Удаление сертифика сайта (если понадобится)
+sudo keytool -delete -alias data.egov.kz -cacerts -storepass changeit
+
+(!) вместо -cacerts может быть например так: -keystore /etc/ssl/certs/java/cacerts
+                                                       /usr/lib/ssl/certs/java/cacerts
+                                                       /etc/pki/java/cacerts

@@ -1,0 +1,1 @@
+sudo dnf install vim-common nss-tools
