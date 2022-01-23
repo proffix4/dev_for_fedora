@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=run-jar
+NoDisplay=true
+Comment=Краткое описание программы
+Icon=java-11-openjdk
+Exec=java -jar
+Actions=
+MimeType=application/x-java-archive;
+Categories=Development;
