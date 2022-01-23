@@ -1,0 +1,13 @@
+sudo dnf module list mysql
+sudo dnf module enable mysql:8.0 -y
+sudo dnf install mysql mysql-server
+mysql --version
+
+systemctl start mariadb.service
+sudo systemctl enable mariadb.service
+
+sudo mysql_secure_installation
+   (!) root password: password
+   (!) new root password: PassW0Rd++
+
+sudo dnf install mysql-workbench
