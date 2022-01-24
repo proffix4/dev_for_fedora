@@ -1,0 +1,2 @@
+sudo dnf install dosbox
+
