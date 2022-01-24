@@ -1,0 +1,5 @@
+URxvt.font: xft:DejaVu Sans Mono:size=16
+XTerm*faceName: DejaVu Sans Mono
+XTerm*faceSize: 16
+XTerm.vt100.foreground: white
+XTerm.vt100.background: navy
