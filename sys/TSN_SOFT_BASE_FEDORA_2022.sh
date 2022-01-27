@@ -13,7 +13,7 @@ sudo dnf install lame\* --exclude=lame-devel
 
 sudo dnf group upgrade --with-optional Multimedia
 
-sudo dnf install dnfdragora gthumb geary pdfshuffler qbittorrent gparted gtkhash obs-studio shotwell
+sudo dnf install pavucontrol dnfdragora gthumb geary pdfshuffler qbittorrent gparted gtkhash obs-studio shotwell xfburn
 
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
