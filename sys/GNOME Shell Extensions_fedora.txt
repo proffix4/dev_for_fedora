@@ -1,6 +1,5 @@
 Dash to Dock (by michele_g) - красивая нижняя панель!
 AppIndicator and KStatusNotifierItem Support (by 3v1n0) - поддержка значков в трее
-Tray Icons: Reloaded (by MartinPL) - поддержка трея для java-программ
 Remove Alt+Tab Delay v2 (by bjoerndaase) - убирает задержку при нажатии Alt+Tab 
 Remove App Menu (by stuarthayhurst) - убирает меню программ в верней панеле
 NoAnnoyance v2 (by bjoerndaase) - удаляет уведомление «Окно готово»
